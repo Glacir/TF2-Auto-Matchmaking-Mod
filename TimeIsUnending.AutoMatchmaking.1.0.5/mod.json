@@ -28,6 +28,13 @@
             {
                 "Before": "AM_Client_Init"
             }
+        },
+        {
+            "Path": "ui/automm_settings.nut",
+            "RunOn": "UI",
+            "UICallback": {
+                "Before": "AutoMMSettings_Init"
+            }
         }
     ]
 }
